@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FARMACIA_PROGRA4ModelStoreContainer" CdmEntityContainer="FARMACIA_PROGRA_FINALEntities">
+    <EntitySetMapping Name="T_CLIENTES">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_CLIENTES">
+        <MappingFragment StoreEntitySet="T_CLIENTES">
+          <ScalarProperty Name="ID_CLIENTE" ColumnName="ID_CLIENTE" />
+          <ScalarProperty Name="IDENTIFICACION" ColumnName="IDENTIFICACION" />
+          <ScalarProperty Name="NOMBRE_CLIENTE" ColumnName="NOMBRE_CLIENTE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_FACTURAS">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_FACTURAS">
+        <MappingFragment StoreEntitySet="T_FACTURAS">
+          <ScalarProperty Name="ID_FACTURA" ColumnName="ID_FACTURA" />
+          <ScalarProperty Name="FECHA_COMPRA" ColumnName="FECHA_COMPRA" />
+          <ScalarProperty Name="MONTO_TOTAL" ColumnName="MONTO_TOTAL" />
+          <ScalarProperty Name="ESTADOACTIVO" ColumnName="ESTADOACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_PRODUCTOS">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_PRODUCTOS">
+        <MappingFragment StoreEntitySet="T_PRODUCTOS">
+          <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+          <ScalarProperty Name="PRECIO" ColumnName="PRECIO" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="CANTIDAD" ColumnName="CANTIDAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_ROLES">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_ROLES">
+        <MappingFragment StoreEntitySet="T_ROLES">
+          <ScalarProperty Name="ID_ROLE" ColumnName="ID_ROLE" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_TIPO_DE_PRODUCTOS">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_TIPO_DE_PRODUCTOS">
+        <MappingFragment StoreEntitySet="T_TIPO_DE_PRODUCTOS">
+          <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+          <ScalarProperty Name="NOMBRE_TIPO_PRODUCTO" ColumnName="NOMBRE_TIPO_PRODUCTO" />
+          <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="T_USUARIOS">
+      <EntityTypeMapping TypeName="FARMACIA_PROGRA4Model.T_USUARIOS">
+        <MappingFragment StoreEntitySet="T_USUARIOS">
+          <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+          <ScalarProperty Name="IDENTIFICACION" ColumnName="IDENTIFICACION" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="CORREO" ColumnName="CORREO" />
+          <ScalarProperty Name="CLAVE" ColumnName="CLAVE" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="FK_FACTURA_ID_CLIENTE" TypeName="FARMACIA_PROGRA4Model.FK_FACTURA_ID_CLIENTE" StoreEntitySet="T_FACTURAS">
+      <EndProperty Name="T_CLIENTES">
+        <ScalarProperty Name="ID_CLIENTE" ColumnName="ID_CLIENTE" />
+      </EndProperty>
+      <EndProperty Name="T_FACTURAS">
+        <ScalarProperty Name="ID_FACTURA" ColumnName="ID_FACTURA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_FACTURA_ID_PRODUCTO" TypeName="FARMACIA_PROGRA4Model.FK_FACTURA_ID_PRODUCTO" StoreEntitySet="T_FACTURAS">
+      <EndProperty Name="T_PRODUCTOS">
+        <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+      </EndProperty>
+      <EndProperty Name="T_FACTURAS">
+        <ScalarProperty Name="ID_FACTURA" ColumnName="ID_FACTURA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_FACTURA_ID_USUARIO" TypeName="FARMACIA_PROGRA4Model.FK_FACTURA_ID_USUARIO" StoreEntitySet="T_FACTURAS">
+      <EndProperty Name="T_USUARIOS">
+        <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+      </EndProperty>
+      <EndProperty Name="T_FACTURAS">
+        <ScalarProperty Name="ID_FACTURA" ColumnName="ID_FACTURA" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_T_PRODUCTO_TIPO_PRODUCTO" TypeName="FARMACIA_PROGRA4Model.FK_T_PRODUCTO_TIPO_PRODUCTO" StoreEntitySet="T_PRODUCTOS">
+      <EndProperty Name="T_TIPO_DE_PRODUCTOS">
+        <ScalarProperty Name="ID_TIPO_PRODUCTO" ColumnName="ID_TIPO_PRODUCTO" />
+      </EndProperty>
+      <EndProperty Name="T_PRODUCTOS">
+        <ScalarProperty Name="ID_PRODUCTO" ColumnName="ID_PRODUCTO" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="FK_T_USUARIO_T_ROLE_USUARIO" TypeName="FARMACIA_PROGRA4Model.FK_T_USUARIO_T_ROLE_USUARIO" StoreEntitySet="T_USUARIOS">
+      <EndProperty Name="T_ROLES">
+        <ScalarProperty Name="ID_ROLE" ColumnName="ID_ROLE" />
+      </EndProperty>
+      <EndProperty Name="T_USUARIOS">
+        <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
