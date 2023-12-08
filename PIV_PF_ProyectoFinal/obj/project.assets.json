@@ -11210,24 +11210,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jimmy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\pcama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jimmy\\Desktop\\Ingeniería en Sistemas\\Programación IV\\Proyecto\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL.csproj",
+      "projectUniqueName": "C:\\Users\\pcama\\source\\repos\\pruebarepo\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL.csproj",
       "projectName": "PIV_PF_PROYECTOFINAL",
-      "projectPath": "C:\\Users\\jimmy\\Desktop\\Ingeniería en Sistemas\\Programación IV\\Proyecto\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL.csproj",
-      "packagesPath": "C:\\Users\\jimmy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jimmy\\Desktop\\Ingeniería en Sistemas\\Programación IV\\Proyecto\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL\\obj\\",
+      "projectPath": "C:\\Users\\pcama\\source\\repos\\pruebarepo\\PIV_PF_PROYECTOFINAL\\PIV_PF_PROYECTOFINAL.csproj",
+      "packagesPath": "C:\\Users\\pcama\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pcama\\source\\repos\\pruebarepo\\PIV_PF_PROYECTOFINAL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jimmy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\pcama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11235,7 +11230,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11292,8 +11286,31 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU3037",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Paquete \"runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0\" del origen \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\\": El período de validez de firma principal del repositorio ha expirado.",
+      "libraryId": "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Paquete \"runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0\" del origen \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\\": El período de validez de firma principal del repositorio ha expirado.",
+      "libraryId": "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    },
+    {
+      "code": "NU3037",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Paquete \"runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0\" del origen \"C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\\": El período de validez de firma principal del repositorio ha expirado.",
+      "libraryId": "runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl"
+    }
+  ]
 }

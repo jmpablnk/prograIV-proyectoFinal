@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("PIV_PF_ProyectoFinal")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("PIV_PF_PROYECTOFINAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("PIV_PF_ProyectoFinal")]
-[assembly: System.Reflection.AssemblyTitleAttribute("PIV_PF_ProyectoFinal")]
+[assembly: System.Reflection.AssemblyProductAttribute("PIV_PF_PROYECTOFINAL")]
+[assembly: System.Reflection.AssemblyTitleAttribute("PIV_PF_PROYECTOFINAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
