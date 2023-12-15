@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PIV_PF_PROYECTOFINAL.props" />
-</Project>
