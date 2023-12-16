@@ -23,7 +23,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
         //Tipo de productos
         [Authorize(Roles = "Administrador")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index() //tampoco tiene
         {
               return _context.TiposProducto != null ? 
                           View(await _context.TiposProducto.ToListAsync()) :
@@ -33,7 +33,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Detalles
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")] // No contiene viewbag
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -68,11 +68,11 @@ namespace PIV_PF_ProyectoFinal.Controllers
             {
                 _context.Add(tiposProducto);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                ViewBag.Mensaje = "El producto se agrego correctamente.";
             }
             catch
             {
-                throw;
+                ViewBag.Error = "Se produjo un error al intentar crear el producto.";
             }
             
             return View(tiposProducto);
@@ -121,15 +121,15 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 {
                     if (!TiposProductoExists(tiposProducto.CodigoTipoProducto))
                     {
-                        return NotFound();
-                    }
+
+                    ViewBag.Error = "Se produjo un error al intentar actualizar el producto.";
+                }
                     else
                     {
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
-            
+            ViewBag.Mensaje = "El producto se actualizo correctamente.";
             return View(tiposProducto);
         }
 

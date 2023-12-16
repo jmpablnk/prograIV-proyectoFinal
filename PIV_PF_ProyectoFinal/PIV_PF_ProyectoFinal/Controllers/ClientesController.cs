@@ -24,7 +24,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
         // Clientes 
         [Authorize(Roles = "Administrador,Vendedor")]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index() //no tiene
         {
               return _context.Cliente != null ? 
                           View(await _context.Cliente.ToListAsync()) :
@@ -36,7 +36,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
         // Detalles
         [Authorize(Roles = "Administrador,Vendedor")]
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int? id) // no tiene
         {
             if (id == null || _context.Cliente == null)
             {
@@ -67,7 +67,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Administrador,Vendedor")]
-        public async Task<IActionResult> Create([Bind("IdCliente,Identificacion,NombreCliente,Apellido,Correo,Estado")] Cliente tCliente)
+        public async Task<IActionResult> Create([Bind("IdCliente,Identificacion,NombreCliente,Apellido,Correo,Estado")] Cliente tCliente) // si tiene
         {
             try
             {
@@ -140,7 +140,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador,Vendedor")]
+        [Authorize(Roles = "Administrador,Vendedor")] // tiene
         public async Task<IActionResult> Edit(int id, [Bind("IdClientes,Identificacion,NombreCliente,Correo")] Cliente cliente)
         {
             if (id != cliente.IdClientes)
@@ -156,15 +156,16 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 {
                     if (!ClienteExists(cliente.IdClientes))
                     {
-                        return NotFound();
+                            // Agregar un mensaje de error a ViewBag
+                          ViewBag.Error = "Se produjo un error al intentar actualizar el usuario.";
                     }
                     else
                     {
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
-            
+                ViewBag.Mensaje = "El usuario se actualizo correctamente.";
+
             return View(cliente);
         }
 
@@ -192,6 +193,8 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
             return View(cliente);
         }
+        //Tengo que modificar ESTA PARTE AGREGANDOLE EL viewbag
+
         // Eliminar 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -209,7 +212,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
             }
             
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Index)); // ---
         }
 
         private bool ClienteExists(int id)

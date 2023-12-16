@@ -22,7 +22,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Productos
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")] // No contiene viewbag
         public async Task<IActionResult> Index()
         {
             var fARMACIA_PROGRA4Context = _context.Producto.Include(p => p.CodigoTipoProductoNavigation);
@@ -33,7 +33,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")] // No contieen view bag
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Producto == null)
@@ -68,17 +68,17 @@ namespace PIV_PF_ProyectoFinal.Controllers
         [Authorize(Roles = "Administrador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CodigoProducto,DescripcionProducto,Precio,Estado,CantidadStock,CodigoTipoProducto")] Producto producto)
+        public async Task<IActionResult> Create([Bind("CodigoProducto,DescripcionProducto,Precio,Estado,CantidadStock,CodigoTipoProducto")] Producto producto) //si tiene
         {
             try
             {
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                ViewBag.Mensaje = "El producto se agrego correctamente.";
             }
             catch
             {
-                throw;
+                ViewBag.Error = "Se produjo un error al intentar crear el producto.";
             }
             ViewData["CodigoTipoProducto"] = new SelectList(_context.TiposProducto, "CodigoTipoProducto", "CodigoTipoProducto", producto.CodigoTipoProducto);
             return View(producto);
@@ -116,8 +116,6 @@ namespace PIV_PF_ProyectoFinal.Controllers
             {
                 return NotFound();
             }
-
-            
                 try
                 {
                     _context.Update(producto);
@@ -127,21 +125,24 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 {
                     if (!ProductoExists(producto.CodigoProducto))
                     {
-                        return NotFound();
-                    }
+                    // Agregar un mensaje de error a ViewBag
+                    ViewBag.Error = "Se produjo un error al intentar actualizar el producto.";
+                    }   
                     else
                     {
                         throw;
                     }
-                }
-                return RedirectToAction(nameof(Index));
-            
+            }
+            ViewBag.Mensaje = "El producto se actualizo correctamente.";
             ViewData["CodigoTipoProducto"] = new SelectList(_context.TiposProducto, "CodigoTipoProducto", "CodigoTipoProducto", producto.CodigoTipoProducto);
             return View(producto);
         }
 
+
+
+
         // Eliminar
-        [Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")] /// Me fatla
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Producto == null)
