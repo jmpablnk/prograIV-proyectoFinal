@@ -1,16 +1,9 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model IdentityRole
-@if (!string.IsNullOrEmpty(ViewBag.Mensaje))
+@if (ViewBag.Rol != null)
 {
     <div class="alert alert-success">
-        @ViewBag.Mensaje
-    </div>
-}
-
-@if (!string.IsNullOrEmpty(ViewBag.Error))
-{
-    <div class="alert alert-danger">
-        @ViewBag.Error
+        @ViewBag.Rol
     </div>
 }
 

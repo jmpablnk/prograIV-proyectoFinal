@@ -7,29 +7,73 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PIV_PF_ProyectoFinal.styles.css" asp-append-version="true" />
+ 
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+
+    <style>
+       body {
+            /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+            background-image: url('https://img.freepik.com/foto-gratis/resumen-borroso-defocused-farmacia-farmacia_1203-9459.jpg?w=826&t=st=1702697334~exp=1702697934~hmac=a2855cd45ec17bc30e1c91dc26b00e6ef9b2ec2913f65d25171b3d621a3f6702');
+            background-size: cover; 
+            background-position: center; 
+            font-family: 'Times New Roman';
+            
+        }
+
+        
+        h1 {
+            color: white; 
+        }
+    </style>
+
 </head>
-<body>
+<body >
+   
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+
+           <nav class="navbar navbar-expand-lg " style="background-color: lightgreen;">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">PIV_PF_ProyectoFinal</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" style=" color: black;font-size: 26px;">La Farmacia</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link active" aria-current="page" asp-controller="Home" style=" color: black;font-size: 20px;">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                       
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" style="color: black;font-size: 20px;"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menú
+                            </a>
+                            <ul class="dropdown-menu" style="color: black;font-size: 20px;">
+
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Clientes" asp-action="Index" style="text-align:center;">Clientes</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="DetallesFacturas" asp-action="Index" style="text-align:center;">Detalles Facturas</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Facturas" asp-action="Index" style="text-align:center;">Facturas</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Productos" asp-action="Index" style="text-align:center;">Productos</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Roles" asp-action="Index" style="text-align:center;">Roles</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="TiposProductos" asp-action="Index" style="text-align:center;">Tipo de Productos</a></li>
+                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Usuarios" asp-action="Index" style="text-align:center;">Usuarios</a></li>
+                               
+                            </ul>
                         </li>
                     </ul>
-                    <partial name="_LoginPartial" />
+                    <div>
+                        <form  style="font-family: 'Times New Roman'; text-decoration: underline; color: black;">
+                        <partial name="_LoginPartial" />
+                    </form>
+                    </div>
                 </div>
             </div>
         </nav>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
@@ -37,11 +81,23 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
+    <footer class="border-top footer text-muted" >
+        <div class="container" style="background-color: lightgreen; text-align: center;">
             &copy; 2023 - PIV_PF_ProyectoFinal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+       </div>
     </footer>
+
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

@@ -1,15 +1,41 @@
 ﻿@page
 @model LoginModel
 
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Inicio de Sesión";
 }
 
 <h1>@ViewData["Title"]</h1>
 <div class="row">
     <div class="col-md-4">
         <section>
-            <form id="account" method="post">
+
+
+            <main class="form-signin w-100 m-auto">
+                <form>
+                    <img class="mb-4" src="https://www.freepik.es/foto-gratis/3d-render-mano-bombilla-idea-creativa_35672160.htm#query=png&position=0&from_view=keyword&track=sph&uuid=820b4d66-e22d-4563-91e5-3797b01b1243" alt="" width="72" height="57">
+                    <h1 class="h3 mb-3 fw-normal">Ingrese sus datos</h1>
+
+                    <div class="form-floating">
+                        <input asp-for="Input.Email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating">
+                        <input asp-for="Input.Password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Contraseña</label>
+                    </div>
+                    <button class="btn btn-primary w-100 py-2" type="submit">Ingresar</button>
+                    <p class="mt-5 mb-3 text-body-secondary">©2023</p>
+                </form>
+            </main>
+
+
+
+@*             <form id="account" method="post">
                 <h2>Use a local account to log in.</h2>
                 <hr />
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -45,7 +71,7 @@
                         <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Resend email confirmation</a>
                     </p>
                 </div>
-            </form>
+            </form> *@
         </section>
     </div>
     <div class="col-md-6 col-md-offset-2">
@@ -79,6 +105,15 @@
         </section>
     </div>
 </div>
+
+
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

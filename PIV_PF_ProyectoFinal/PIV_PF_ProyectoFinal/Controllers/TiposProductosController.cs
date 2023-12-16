@@ -22,8 +22,8 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Tipo de productos
-        [Authorize(Roles = "Administrador")]
-        public async Task<IActionResult> Index() //tampoco tiene
+       // [Authorize(Roles = "Administrador")]
+        public async Task<IActionResult> Index()
         {
               return _context.TiposProducto != null ? 
                           View(await _context.TiposProducto.ToListAsync()) :
@@ -33,7 +33,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Detalles
-        [Authorize(Roles = "Administrador")] // No contiene viewbag
+     //   [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -68,11 +68,11 @@ namespace PIV_PF_ProyectoFinal.Controllers
             {
                 _context.Add(tiposProducto);
                 await _context.SaveChangesAsync();
-                ViewBag.Mensaje = "El producto se agrego correctamente.";
+                return RedirectToAction(nameof(Index));
             }
             catch
             {
-                ViewBag.Error = "Se produjo un error al intentar crear el producto.";
+                throw;
             }
             
             return View(tiposProducto);
@@ -85,7 +85,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Editar
-        [Authorize(Roles = "Administrador")]
+      //  [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -103,7 +103,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador")]
+      //  [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id, [Bind("CodigoTipoProducto,DescripcionTipoProducto")] TiposProducto tiposProducto)
         {
             if (id != tiposProducto.CodigoTipoProducto)
@@ -121,15 +121,15 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 {
                     if (!TiposProductoExists(tiposProducto.CodigoTipoProducto))
                     {
-
-                    ViewBag.Error = "Se produjo un error al intentar actualizar el producto.";
-                }
+                        return NotFound();
+                    }
                     else
                     {
                         throw;
                     }
                 }
-            ViewBag.Mensaje = "El producto se actualizo correctamente.";
+                return RedirectToAction(nameof(Index));
+            
             return View(tiposProducto);
         }
 
@@ -142,7 +142,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar
-        [Authorize(Roles = "Administrador")]
+      //  [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -162,7 +162,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar
-        [Authorize(Roles = "Administrador")]
+      //  [Authorize(Roles = "Administrador")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
