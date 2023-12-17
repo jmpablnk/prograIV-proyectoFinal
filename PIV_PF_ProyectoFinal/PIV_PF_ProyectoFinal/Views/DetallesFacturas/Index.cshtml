@@ -3,32 +3,23 @@
 @{
     ViewData["Title"] = "Index";
 }
-<style>
-    body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        
-        background-image: url('img/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg');
-        background-size: cover;
-        background-position: center;
-        font-family: 'Times New Roman';
-     
-    }
 
 
-    h1 {
-        color: black;
-        text-decoration: underline;
-    }
-</style>
-
-<h1>Index</h1>
-
+<br>
+<br>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create">Nuevo Detalle Factura</a>
 </p>
-<table class="table">
+
+
+
+
+
+<table class="table table-dark table-striped">
+
+   
     <thead>
-        <tr>
+        <tr style="text-align:center;">
             <th>
                 @Html.DisplayNameFor(model => model.Subtotal)
             </th>
@@ -44,7 +35,7 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
+            <tr style="text-align:center;">
                 <td>
                     @Html.DisplayFor(modelItem => item.Subtotal)
                 </td>
@@ -55,8 +46,8 @@
                     @Html.DisplayFor(modelItem => item.CodigoProductoNavigation.CodigoProducto)
                 </td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.IdDetallesFactura">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdDetallesFactura">Delete</a>
+                    <a type="button" class="btn btn-light" asp-action="Details" asp-route-id="@item.IdDetallesFactura">Detalles</a> |
+                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdDetallesFactura">Eliminar</a>
                 </td>
             </tr>
         }

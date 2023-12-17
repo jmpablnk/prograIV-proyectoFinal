@@ -4,7 +4,7 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+@* <h1>Create</h1>
 
 <h4>Factura</h4>
 <hr />
@@ -45,7 +45,108 @@
 
 <div>
     <a asp-action="Index">Back to List</a>
+</div> *@
+
+
+
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+
+<style>
+ 
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+
+
+
+
+
+<h1>Añadir Factura</h1>
+
+<h4>Factura</h4>
+<hr />
+
+<div class="col-12">
+    <form class="row g-3" asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-md-2">
+            <label asp-for="CodigoFactura" class="form-label">Código Factura</label>
+            <input asp-for="CodigoFactura" class="form-control" id="validationDefault01">
+            <span asp-validation-for="CodigoFactura" class="text-danger"></span>
+        </div>
+        <div class="col-md-2">
+            <label asp-for="FechaCompra" class="form-label">Fecha de Compra</label>
+            <input asp-for="FechaCompra" class="form-control" id="validationDefault02">
+            <span asp-validation-for="FechaCompra" class="text-danger"></span>
+        </div>
+        <div class="col-md-2">
+
+            <label asp-for="Cantidad" class="form-label">Cantidad</label>
+            <input asp-for="Cantidad" class="form-control" id="validationDefaultUsername">
+            <span asp-validation-for="Cantidad" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+
+            <label asp-for="MetodoPago" class="control-label"></label>
+            <select asp-for="MetodoPago" class="form-control">
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta de crédito/débito</option>
+                <option value="Tarjeta">Transferencia</option>
+            </select>
+            <span asp-validation-for="MetodoPago" class="text-danger"></span>
+
+        </div>
+        <div class="col-md-2">
+
+            <div class="form-group">
+                <label asp-for="IdClientes" class="control-label"></label>
+                <select asp-for="IdClientes" class="form-control" asp-items="ViewBag.IdClientes"></select>
+            <span asp-validation-for="IdClientes" class="text-danger"></span>
+        </div>
+
+            <div class="col-12" >
+                <input style="margin-bottom: 5px;" type="submit" value="Create" class="btn btn-primary" />
+        </div>
+        <div>
+            <a style="margin-bottom: 7px;" type="button" class="btn btn-danger" asp-action="Index">Regresar a la lista</a>
+        </div>
+    </form>
 </div>
+
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

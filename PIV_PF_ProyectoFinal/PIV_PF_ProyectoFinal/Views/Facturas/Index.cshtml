@@ -4,12 +4,41 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
+<style>
+    body {
+        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+
+        background-image: url('img/resumen-borroso-defocused-farmacia-farmacia.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
+
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+
+
+ <h1>Factura</h1>
+
+
+<br>
+<br>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create">Añadir Factura</a>
 </p>
-<table class="table">
+
+
+
+<table class="table table-dark table-striped">
+
+
     <thead>
         <tr>
             <th>
@@ -28,26 +57,28 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FechaCompra)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cantidad)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MetodoPago)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdClientesNavigation.IdClientes)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CodigoFactura">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CodigoFactura">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CodigoFactura">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCompra)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cantidad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MetodoPago)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdClientesNavigation.IdClientes)
+                </td>
+                <td>
+                    <a type="button" class="btn btn-success" asp-action="Edit" asp-route-id="@item.CodigoFactura">Editar</a> |
+                    <a type="button" class="btn btn-light" asp-action="Details" asp-route-id="@item.CodigoFactura">Detalles</a> |
+                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.CodigoFactura">Eliminar</a>
+                </td>
+            </tr>
+        }
     </tbody>
-</table>
+</table> 
+

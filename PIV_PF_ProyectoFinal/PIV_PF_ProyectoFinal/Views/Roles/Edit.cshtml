@@ -1,5 +1,6 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model IdentityRole
+
 @if (!string.IsNullOrEmpty(ViewBag.Mensaje))
 {
     <div class="alert alert-success">
@@ -15,8 +16,28 @@
 }
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar";
 }
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<style>
+    body {
+        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+        background-image: url('img/detailsproducto.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
 
 <h1>Editar</h1>
 
@@ -32,16 +53,21 @@
                 <input asp-for="Name" class="form-control" />
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-primary" />
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit" style="margin-bottom: 5px;">Guardar</button>
+                <a type="button" class="btn btn-danger" asp-action="Index">Regresar a la lista</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Volver a la lista</a>
-</div>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
 
 @section Scripts {
     @{

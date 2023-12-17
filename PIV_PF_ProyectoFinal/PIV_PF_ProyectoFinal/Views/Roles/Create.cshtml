@@ -18,28 +18,42 @@
     ViewData["Title"] = "Crear Rol";
 }
 
-<h2>@ViewData["Title"]</h2>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<h1>Crear Rol</h1>
 
 <hr />
+<div class="form-container">
+    <form class="row g-3" asp-action="Create">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
-<div class="row">
-    <div class="col-md-6">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-md-6 mb-3">
+            <label asp-for="Name" class="form-label">Nombre del Rol</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
 
-            <div class="form-group">
-                <label asp-for="Name" class="control-label">Nombre del Rol:</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary">Crear Rol</button>
-            </div>
-        </form>
-    </div>
+        <div class="col-md-6 mb-3">
+            <button class="btn btn-primary" type="submit">Crear Rol</button>
+        </div>
+    </form>
 </div>
 
 <div>
-    <a asp-action="Index">Volver a la lista de Roles</a>
+    <a asp-action="Index" class="btn btn-secondary">Volver a la lista de Roles</a>
 </div>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

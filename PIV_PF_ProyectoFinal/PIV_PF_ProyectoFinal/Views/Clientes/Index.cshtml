@@ -3,26 +3,12 @@
 @{
     ViewData["Title"] = "Index";
 }
-<style>
-    body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        background-image: url('img/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg');
-        background-size: cover;
-        background-position: center;
-        font-family: 'Times New Roman';
-    }
 
 
-    h1 {
-        color: black;
-        text-decoration: underline;
-    }
-</style>
-
-
-
-<p>
-    <a asp-action="Create">Crear</a>
+<br>
+<br>
+<p >
+    <a  type="button" class="btn btn-primary btn-lg" asp-action="Create">Añadir Cliente</a>
 </p>
 
 
@@ -58,9 +44,9 @@
                     @Html.DisplayFor(modelItem => item.Correo)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.IdClientes">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.IdClientes">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.IdClientes">Eliminar</a>
+                    <a type="button" class="btn btn-success" asp-action="Edit" asp-route-id="@item.IdClientes">Editar</a> |
+                    <a type="button" class="btn btn-light" asp-action="Details" asp-route-id="@item.IdClientes">Detalles</a> |
+                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdClientes">Eliminar</a>
                 </td>
             </tr>
         }

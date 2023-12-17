@@ -1,18 +1,42 @@
-﻿vista Index
-
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @model IEnumerable<IdentityRole>
 
 @{
     ViewData["Title"] = "Roles";
+}
 
-    <H3>Roles</H3>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-    <p>
-        <a asp-action="Create">Crear Rol</a>
+<style>
+    body {
+        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+        background-image: url('img/productos_farmacia.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
 
-    </p>
-<table class="table">
+    h3 {
+        color: black;
+        text-decoration: underline;
+    }
+
+    table {
+        margin-top: 20px;
+        color: black;
+    }
+</style>
+
+<h3>Roles</h3>
+
+<p>
+    <a asp-action="Create">Crear Rol</a>
+</p>
+
+<table class="table table-dark table-striped">
     <thead>
         <tr>
             <th>
@@ -37,4 +61,10 @@
         }
     </tbody>
 </table>
-}
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

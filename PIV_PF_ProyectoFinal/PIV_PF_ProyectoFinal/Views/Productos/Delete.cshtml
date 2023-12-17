@@ -1,51 +1,75 @@
 ﻿@model PIV_PF_ProyectoFinal.Models.Producto
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Eliminar";
 }
 
-<h1>Delete</h1>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-<h3>Are you sure you want to delete this?</h3>
+<style>
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+<h1>Eliminar</h1>
+
+<h3>¿Seguro de que deseas eliminar esto ?</h3>
+
 <div>
-    <h4>Producto</h4>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.DescripcionProducto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.DescripcionProducto)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Precio)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Precio)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Estado)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Estado)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CantidadStock)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CantidadStock)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CodigoTipoProductoNavigation)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CodigoTipoProductoNavigation.CodigoTipoProducto)
-        </dd>
-    </dl>
-    
-    <form asp-action="Delete">
-        <input type="hidden" asp-for="CodigoProducto" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
-    </form>
+    <div>
+
+        <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;text-align:center;">
+            <img src="~/img/iconodelete.png" class="card-img-top" style="width: 100px; height: auto; ">
+            <div class="card-body">
+                <h5 class="card-title">Cliente</h5>
+                <dl class="row">
+                    <dt>
+                        @Html.DisplayNameFor(model => model.DescripcionProducto)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.DescripcionProducto)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Precio)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Precio)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.Estado)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.Estado)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.CantidadStock)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.CantidadStock)
+                    </dd>
+                    <dt>
+                        @Html.DisplayNameFor(model => model.CodigoTipoProductoNavigation)
+                    </dt>
+                    <dd>
+                        @Html.DisplayFor(model => model.CodigoTipoProductoNavigation.CodigoTipoProducto)
+                    </dd>
+                </dl>
+
+
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="CodigoProducto" />
+                    <input type="submit" value="Delete" class="btn btn-danger" /> |
+                    <a type="button" class="btn btn-warning" asp-action="Index">Regresar a la lista</a>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+
 </div>

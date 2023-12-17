@@ -2,24 +2,63 @@
 @model IdentityRole
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalles";
 }
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<style>
+    body {
+        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+        background-image: url('img/detailsproductos.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+
+    dl.row {
+        margin-bottom: 20px;
+    }
+
+    dt {
+        text-align: left;
+    }
+
+    dd {
+        margin-bottom: 10px;
+    }
+</style>
 
 <h1>Detalles</h1>
 
 <div>
-    <h4>Rol</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">
-            Nombre
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Name)
-        </dd>
-    </dl>
+
+    <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;text-align:center;">
+        <img src="~/img/iconorol.png" class="card-img-top" style="width: 100px; height: auto; ">
+        <div class="card-body">
+            <h5 class="card-title">Roles</h5>
+            <dl class="row">
+                <dt>
+                    Nombre
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+            </dl>
+            <a style="margin-bottom: 7px;" type="button" class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar</a>
+            <a style="margin-bottom: 7px;" type="button" class="btn btn-danger" asp-action="Index">Regresar a la lista</a>
+        </div>
+    </div>
+
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
-    <a asp-action="Index">Volver a la lista</a>
-</div>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

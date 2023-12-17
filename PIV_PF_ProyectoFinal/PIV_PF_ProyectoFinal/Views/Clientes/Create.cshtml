@@ -25,13 +25,21 @@
 @{
     ViewData["Title"] = "Añadir Cliente";
 }
+<style>
+ 
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
 
 
 <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
 <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
 <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-<h1>Create</h1>
+
+<h1>Añadir Cliente</h1>
 
 <h4>Cliente</h4>
 <hr />
@@ -45,28 +53,28 @@
         <input asp-for="Identificacion" class="form-control" id="validationDefault01" >
         <span asp-validation-for="Identificacion" class="text-danger"></span>
   </div>
-  <div class="col-md-4">
+    <div class="col-md-4" >
         <label asp-for="NombreCliente" class="form-label">Nombre Completo</label>
         <input asp-for="NombreCliente" class="form-control" id="validationDefault02">
         <span asp-validation-for="NombreCliente" class="text-danger"></span>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4" >
   
             <label asp-for="Correo" class="form-label">Correo Electrónico</label>
             <input asp-for="Correo" class="form-control" id="validationDefaultUsername">
             <span asp-validation-for="Correo" class="text-danger"></span>
     </div>
   
-  <div class="col-12">
-    <button class="btn btn-primary" type="submit">Añadir Usuario</button>
+  <div class="col-12" >
+        <button class="btn btn-primary" type="submit" style="margin-bottom: 5px;">Añadir Usuario</button>
   </div>
 </form>
 
 
 <div>
-    <a asp-action="Index">Regresar a la lista</a>
+    <a style="margin-bottom: 7px;" type="button" class="btn btn-danger" asp-action="Index">Regresar a la lista</a>
 </div>
-
+    
 
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>

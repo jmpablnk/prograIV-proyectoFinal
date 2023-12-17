@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yGHV9FU437iOhoJHMidyTn8qDoegXHZjqydY10YaYFo=",
+  "Hash": "xVybBIx4W6xBq7mps4aeo7MUHrkVBRHp4Tj35T5s9Gg=",
   "Source": "PIV_PF_ProyectoFinal",
   "BasePath": "_content/PIV_PF_ProyectoFinal",
   "Mode": "Default",
@@ -1105,40 +1105,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg",
-      "SourceId": "PIV_PF_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\",
-      "BasePath": "_content/PIV_PF_ProyectoFinal",
-      "RelativePath": "Img/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\disco-compacto.png",
-      "SourceId": "PIV_PF_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\",
-      "BasePath": "_content/PIV_PF_ProyectoFinal",
-      "RelativePath": "Img/disco-compacto.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\disco-compacto.png"
-    },
-    {
       "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg",
       "SourceId": "PIV_PF_ProyectoFinal",
       "SourceType": "Discovered",
@@ -1154,23 +1120,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\usuario (1).png",
-      "SourceId": "PIV_PF_ProyectoFinal",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\",
-      "BasePath": "_content/PIV_PF_ProyectoFinal",
-      "RelativePath": "Img/usuario (1).png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Img\\usuario (1).png"
     },
     {
       "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\js\\site.js",
@@ -2157,6 +2106,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Style\\sign-in.css",
+      "SourceId": "PIV_PF_ProyectoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\",
+      "BasePath": "_content/PIV_PF_ProyectoFinal",
+      "RelativePath": "Style/sign-in.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Style\\sign-in.css"
     }
   ]
 }

@@ -4,7 +4,7 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+@* <h1>Delete</h1>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
@@ -42,4 +42,71 @@
         <input type="submit" value="Delete" class="btn btn-danger" /> |
         <a asp-action="Index">Back to List</a>
     </form>
+</div>
+
+ *@
+
+
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<style>
+  
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+<h1>Eliminar</h1>
+
+<h3>¿Seguro de que deseas eliminar esto ? </h3>
+<div>
+    <div>
+       
+        <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;text-align:center;">
+            <img src="~/img/usuario (1).png" class="card-img-top" style="width: 100px; height: auto; ">
+            <div class="card-body">
+                <h5 class="card-title">Factura</h5>
+                <dl class="row">
+                    <dt >
+                        @Html.DisplayNameFor(model => model.FechaCompra)
+                    </dt>
+                    <dd >
+                        @Html.DisplayFor(model => model.FechaCompra)
+                    </dd>
+                    <dt >
+                        @Html.DisplayNameFor(model => model.Cantidad)
+                    </dt>
+                    <dd >
+                        @Html.DisplayFor(model => model.Cantidad)
+                    </dd>
+                    <dt >
+                        @Html.DisplayNameFor(model => model.MetodoPago)
+                    </dt>
+                    <dd >
+                        @Html.DisplayFor(model => model.MetodoPago)
+                    </dd>
+                    <dt >
+                        @Html.DisplayNameFor(model => model.IdClientesNavigation)
+                    </dt>
+                    <dd >
+                        @Html.DisplayFor(model => model.IdClientesNavigation.IdClientes)
+                    </dd>
+                </dl>
+                <form asp-action="Delete">
+                <input type="hidden" asp-for="CodigoFactura" />
+                <input type="submit" value="Delete" class="btn btn-danger" /> |
+                <a type="button" class="btn btn-warning" asp-action="Index">Regresar a la lista</a>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
 </div>

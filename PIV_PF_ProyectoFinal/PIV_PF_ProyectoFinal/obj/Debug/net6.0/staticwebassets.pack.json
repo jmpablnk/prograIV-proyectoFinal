@@ -5,20 +5,12 @@
       "PackagePath": "staticwebassets\\PIV_PF_ProyectoFinal.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg",
-      "PackagePath": "staticwebassets\\Img\\composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg"
-    },
-    {
-      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\disco-compacto.png",
-      "PackagePath": "staticwebassets\\Img\\disco-compacto.png"
-    },
-    {
       "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg",
       "PackagePath": "staticwebassets\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg"
     },
     {
-      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\usuario (1).png",
-      "PackagePath": "staticwebassets\\Img\\usuario (1).png"
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Style\\sign-in.css",
+      "PackagePath": "staticwebassets\\Style\\sign-in.css"
     },
     {
       "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\css\\site.css",

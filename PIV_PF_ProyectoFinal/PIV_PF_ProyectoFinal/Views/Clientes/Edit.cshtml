@@ -15,13 +15,7 @@
 }
 
 <style>
-    body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        background-image: url('img/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg');
-        background-size: cover;
-        background-position: center;
-        font-family: 'Times New Roman';
-    }
+ 
 
 
     h1 {
@@ -38,7 +32,30 @@
 <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
 <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-<h1>Edit</h1>
+
+<style>
+    body {
+        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
+
+        background-image: url('img/resumen-borroso-defocused-farmacia-farmacia.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
+
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+
+
+
+
+<h1>Modificar Cliente</h1>
 
 <h4>Cliente</h4>
 <hr />
@@ -64,15 +81,12 @@
         <span asp-validation-for="Correo" class="text-danger"></span>
     </div>
 
-    <div class="col-12">
-        <button class="btn btn-primary" type="submit">Guardar</button>
+            <div class="col-12" >
+        <button class="btn btn-primary" type="submit" style="margin-bottom: 5px;">Guardar</button>
+        <a type="button" class="btn btn-danger" asp-action="Index">Regresar a la lista</a>
     </div>
 </form>
     </div>
-
-<div>
-    <a asp-action="Index">Regresar a la lista</a>
-</div>
 </div>
 
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
