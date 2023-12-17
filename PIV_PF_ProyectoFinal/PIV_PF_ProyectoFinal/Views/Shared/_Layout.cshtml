@@ -53,21 +53,18 @@
                             <a class="nav-link dropdown-toggle" style="color: black;font-size: 20px;"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Menú
                             </a>
-                            <ul class="dropdown-menu" style="color: black;font-size: 20px;">
-
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Clientes" asp-action="Index" style="text-align:center;">Clientes</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="DetallesFacturas" asp-action="Index" style="text-align:center;">Detalles Facturas</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Facturas" asp-action="Index" style="text-align:center;">Facturas</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Productos" asp-action="Index" style="text-align:center;">Productos</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Roles" asp-action="Index" style="text-align:center;">Roles</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="TiposProductos" asp-action="Index" style="text-align:center;">Tipo de Productos</a></li>
-                                <li class="nav-item active"><a class="btn btn-outline-info" asp-controller="Usuarios" asp-action="Index" style="text-align:center;">Usuarios</a></li>
-                               
+                            <ul class="dropdown-menu" style="color: black; font-size: 20px; text-align: center; background-color: papayawhip;">
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="Clientes" asp-action="Index">Clientes</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="DetallesFacturas" asp-action="Index">Detalles Facturas</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="Facturas" asp-action="Index">Facturas</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="Productos" asp-action="Index">Productos</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="Roles" asp-action="Index">Roles</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="TiposProductos" asp-action="Index">Tipo de Productos</a></li>
+                                <li style="margin-bottom: 7px;"><a class="btn btn-outline-info" asp-controller="Usuarios" asp-action="Index">Usuarios</a></li>
                             </ul>
-                        </li>
                     </ul>
-                    <partial name="_LoginPartial" />
                 </div>
+                <partial name="_LoginPartial" />
             </div>
         </nav>
         

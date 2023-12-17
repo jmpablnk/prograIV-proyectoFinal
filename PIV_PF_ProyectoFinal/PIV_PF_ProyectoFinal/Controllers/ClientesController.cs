@@ -23,7 +23,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Clientes 
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Index() //no tiene
         {
               return _context.Cliente != null ? 
@@ -35,7 +35,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Details(int? id) // no tiene
         {
             if (id == null || _context.Cliente == null)
@@ -58,7 +58,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Crear
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public IActionResult Create()
         {
             return View();
@@ -66,7 +66,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Create([Bind("IdCliente,Identificacion,NombreCliente,Apellido,Correo,Estado")] Cliente tCliente) // si tiene
         {
             try
@@ -119,7 +119,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         }
 
         // Editar
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Cliente == null)
@@ -140,7 +140,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador,Vendedor")] // tiene
+        //[Authorize(Roles = "Administrador,Vendedor")] // tiene
         public async Task<IActionResult> Edit(int id, [Bind("IdClientes,Identificacion,NombreCliente,Correo")] Cliente cliente)
         {
             if (id != cliente.IdClientes)
@@ -176,7 +176,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Eliminar 
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Cliente == null)
@@ -198,7 +198,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Eliminar 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador,Vendedor")]
+        //[Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Cliente == null)

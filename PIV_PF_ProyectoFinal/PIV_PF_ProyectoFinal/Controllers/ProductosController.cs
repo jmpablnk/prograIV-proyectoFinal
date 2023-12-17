@@ -22,7 +22,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Productos
-        [Authorize(Roles = "Administrador")] // No contiene viewbag
+        //[Authorize(Roles = "Administrador")] // No contiene viewbag
         public async Task<IActionResult> Index()
         {
             var fARMACIA_PROGRA4Context = _context.Producto.Include(p => p.CodigoTipoProductoNavigation);
@@ -33,7 +33,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles
-        [Authorize(Roles = "Administrador")] // No contieen view bag
+        //[Authorize(Roles = "Administrador")] // No contieen view bag
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.Producto == null)
@@ -57,7 +57,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Crear
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public IActionResult Create()
         {
             ViewData["CodigoTipoProducto"] = new SelectList(_context.TiposProducto, "CodigoTipoProducto", "CodigoTipoProducto");
@@ -65,7 +65,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         }
 
         // Crear
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CodigoProducto,DescripcionProducto,Precio,Estado,CantidadStock,CodigoTipoProducto")] Producto producto) //si tiene
@@ -89,7 +89,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Editar
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.Producto == null)
@@ -109,7 +109,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id, [Bind("CodigoProducto,DescripcionProducto,Precio,Estado,CantidadStock,CodigoTipoProducto")] Producto producto)
         {
             if (id != producto.CodigoProducto)
@@ -142,7 +142,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar
-        [Authorize(Roles = "Administrador")] /// Me fatla
+        //[Authorize(Roles = "Administrador")] /// Me fatla
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.Producto == null)
@@ -164,7 +164,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Eliminar
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Administrador")]
+        //[Authorize(Roles = "Administrador")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
             if (_context.Producto == null)

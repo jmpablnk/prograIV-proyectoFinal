@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YJH3B+r+ssGQdC05qjbaDBB60WTbJAQbTGXuGzZsUbk=",
+  "Hash": "yGHV9FU437iOhoJHMidyTn8qDoegXHZjqydY10YaYFo=",
   "Source": "PIV_PF_ProyectoFinal",
   "BasePath": "_content/PIV_PF_ProyectoFinal",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\usuario (1).png",
+      "SourceId": "PIV_PF_ProyectoFinal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\",
+      "BasePath": "_content/PIV_PF_ProyectoFinal",
+      "RelativePath": "Img/usuario (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\usuario (1).png"
     },
     {
       "Identity": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\js\\site.js",
