@@ -101,7 +101,7 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     // Aignar el rol por defecto a nuevo usuario" 
-                    //await _userManager.AddToRoleAsync(user, " ");
+                    await _userManager.AddToRoleAsync(user, "Administrador");
                     //Administrador
                     //Vendedor
                     //Contador

@@ -28,10 +28,6 @@ namespace PIV_PF_ProyectoFinal.Controllers
             return View(await fARMACIA_PROGRA4Context.ToListAsync());
         }
 
-
-
-
-
         // Detalles
         public async Task<IActionResult> Details(int? id)
         {
@@ -44,16 +40,16 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 .Include(d => d.CodigoFacturaNavigation)
                 .Include(d => d.CodigoProductoNavigation)
                 .FirstOrDefaultAsync(m => m.IdDetallesFactura == id);
+
             if (detallesFactura == null)
             {
                 return NotFound();
             }
+            detallesFactura.Subtotal = _context.DetallesFactura.Sum(df => df.Subtotal);
+            detallesFactura.Total = detallesFactura.Subtotal * 1.13m;
 
             return View(detallesFactura);
         }
-
-
-
 
 
         // Crear

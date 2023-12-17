@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj": {}
+    "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj": {
+    "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+        "projectUniqueName": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
         "projectName": "PIV_PF_ProyectoFinal",
-        "projectPath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+        "projectPath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
         "packagesPath": "C:\\Users\\José Julián\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\",
+        "outputPath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -74,10 +74,6 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.16, )"
-            },
-            "bootstrap": {
-              "target": "Package",
-              "version": "[5.3.2, )"
             }
           },
           "imports": [

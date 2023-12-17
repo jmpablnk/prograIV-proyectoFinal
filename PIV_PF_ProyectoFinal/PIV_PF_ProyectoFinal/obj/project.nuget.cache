@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "bK0sS0NUoBoItmLxXajh4utzNeV63lK1Z0HBmyHGk08i/xgUkGrcQvKT4zNqAz/tavaYP9gty6W2vEf+NC8LpA==",
+  "dgSpecHash": "tMu9J8WlwmbemLnrmSr+WkX0dlxdzQzrY9gzORa3B1H3/WP+oA0yiS8MPkmphfiVY4/eHEkIRVmaOXN+n9H2MA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\3- Se Implemento los Roles en los controladores\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+  "projectFilePath": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\José Julián\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\José Julián\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\José Julián\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\José Julián\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

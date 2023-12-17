@@ -6,17 +6,19 @@
 <style>
     body {
         /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        background-image: url('https://img.freepik.com/foto-gratis/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul_23-2148502915.jpg?w=1380&t=st=1702704097~exp=1702704697~hmac=6721553e8d80e30f52d6a3d6b36e767ce8509169c58d5af2218ffe4a52464cf9');
+        
+        background-image: url('img/composicion-elementos-medicos-laicos-planos-sobre-fondo-cemento-azul.jpg');
         background-size: cover;
         background-position: center;
+        font-family: 'Times New Roman';
     }
 
 
     h1 {
-        color: white;
+        color: black;
+        text-decoration: underline;
     }
 </style>
-
 
 <h1>Index</h1>
 
@@ -30,9 +32,6 @@
                 @Html.DisplayNameFor(model => model.Subtotal)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Total)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.CodigoFacturaNavigation)
             </th>
             <th>
@@ -42,26 +41,23 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Subtotal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Total)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodigoFacturaNavigation.CodigoFactura)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CodigoProductoNavigation.CodigoProducto)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdDetallesFactura">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdDetallesFactura">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdDetallesFactura">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subtotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodigoFacturaNavigation.CodigoFactura)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodigoProductoNavigation.CodigoProducto)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.IdDetallesFactura">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdDetallesFactura">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

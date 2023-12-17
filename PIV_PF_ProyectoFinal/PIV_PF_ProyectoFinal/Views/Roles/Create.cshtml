@@ -1,5 +1,18 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @model IdentityRole
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-success">
+        @ViewBag.Mensaje
+    </div>
+}
+
+@if (ViewBag.Error != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Error
+    </div>
+}
 
 @{
     ViewData["Title"] = "Crear Rol";
