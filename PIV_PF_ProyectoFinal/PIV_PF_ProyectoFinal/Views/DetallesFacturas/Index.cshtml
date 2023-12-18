@@ -46,8 +46,16 @@
                     @Html.DisplayFor(modelItem => item.CodigoProductoNavigation.CodigoProducto)
                 </td>
                 <td>
-                    <a type="button" class="btn btn-light" asp-action="Details" asp-route-id="@item.IdDetallesFactura">Detalles</a> |
-                    <a type="button" class="btn btn-danger" asp-action="Delete" asp-route-id="@item.IdDetallesFactura">Eliminar</a>
+                   
+                    <a asp-action="Edit" asp-action="Details" asp-route-id="@item.IdDetallesFactura">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a  asp-action="Delete" asp-route-id="@item.IdDetallesFactura">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+
+
+
                 </td>
             </tr>
         }

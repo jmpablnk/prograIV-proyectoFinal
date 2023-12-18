@@ -11,12 +11,11 @@
 
 <style>
     body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-
-        background-image: url('img/resumen-borroso-defocused-farmacia-farmacia.jpg');
+        background-image: url('@Url.Content("~/img/fondo2.jpg")');
         background-size: cover;
         background-position: center;
         font-family: 'Times New Roman';
+        font-size: 18px;
     }
 
 
@@ -27,10 +26,11 @@
     }
 </style>
 
-
 <div class="container">
     <div class="text-center mt-5">
+        
         <h1 class="display-4">Bienvenido</h1>
+        <img src="~/img/apreton-de-manos.png" alt="Bootstrap" width="100" height="90" />
         <p>Explora los diferentes módulos de la aplicación:</p>
     </div>
 
@@ -38,7 +38,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Clientes</h5>
+                    <img src="~/img/clientes.png"  alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Clientes</strong></h5>
                     <p class="card-text">Administra clientes</p>
                     <a href="/Clientes" class="btn btn-primary">Ir a Clientes</a>
                 </div>
@@ -47,7 +48,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Detalle Factura</h5>
+                    <img src="~/img/factura (1).png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Detalle Factura</strong></h5>
                     <p class="card-text">Detalles Factura</p>
                     <a href="/DetallesFacturas" class="btn btn-primary">Ir a Detalles</a>
                 </div>
@@ -56,7 +58,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Facturas</h5>
+                    <img src="~/img/factura.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Facturas</strong></h5>
                     <p class="card-text">Administra facturas</p>
                     <a href="/Facturas" class="btn btn-primary">Ir a Facturas</a>
                 </div>
@@ -66,7 +69,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Productos</h5>
+                    <img  src="~/img/controlar.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Productos</strong></h5>
                     <p class="card-text">Administra productos</p>
                     <a href="/Productos" class="btn btn-primary">Ir a Productos</a>
                 </div>
@@ -76,7 +80,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Roles</h5>
+                    <img src="~/img/roles.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Roles</strong></h5>
                     <p class="card-text">Administra roles de usuario</p>
                     <a href="/Roles" class="btn btn-primary">Ir a Roles</a>
                 </div>
@@ -85,7 +90,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Tipos de Productos</h5>
+                    <img src="~/img/caja.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Tipos de Productos</strong></h5>
                     <p class="card-text">Administra tipos de productos</p>
                     <a href="/TiposProductos" class="btn btn-primary">Ir a Tipos de Productos</a>
                 </div>
@@ -94,7 +100,8 @@
         <div class="col-md-4 mb-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Usuarios</h5>
+                    <img src="~/img/grupo.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Usuarios</strong></h5>
                     <p class="card-text">Administra Usuarios</p>
                     <a href="/Usuarios" class="btn btn-primary">Ir a Usuarios</a>
                 </div>

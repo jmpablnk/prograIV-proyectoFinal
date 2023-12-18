@@ -5,8 +5,136 @@
       "PackagePath": "staticwebassets\\PIV_PF_ProyectoFinal.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg",
-      "PackagePath": "staticwebassets\\Img\\resumen-borroso-defocused-farmacia-farmacia.jpg"
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Actualizar1.png",
+      "PackagePath": "staticwebassets\\Img\\Actualizar1.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\AddUsuario.png",
+      "PackagePath": "staticwebassets\\Img\\AddUsuario.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Clientes.png",
+      "PackagePath": "staticwebassets\\Img\\Clientes.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo2.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo3.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Interfaz.png",
+      "PackagePath": "staticwebassets\\Img\\Interfaz.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Login.png",
+      "PackagePath": "staticwebassets\\Img\\Login.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\apreton-de-manos.png",
+      "PackagePath": "staticwebassets\\Img\\apreton-de-manos.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\bienes.png",
+      "PackagePath": "staticwebassets\\Img\\bienes.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\bloc.png",
+      "PackagePath": "staticwebassets\\Img\\bloc.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\borrar (1).png",
+      "PackagePath": "staticwebassets\\Img\\borrar (1).png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\caja.png",
+      "PackagePath": "staticwebassets\\Img\\caja.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\controlar.png",
+      "PackagePath": "staticwebassets\\Img\\controlar.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\cuenta.png",
+      "PackagePath": "staticwebassets\\Img\\cuenta.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\detalle.png",
+      "PackagePath": "staticwebassets\\Img\\detalle.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\embalaje.png",
+      "PackagePath": "staticwebassets\\Img\\embalaje.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura (1).png",
+      "PackagePath": "staticwebassets\\Img\\factura (1).png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura.png",
+      "PackagePath": "staticwebassets\\Img\\factura.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura2.png",
+      "PackagePath": "staticwebassets\\Img\\factura2.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\facturas-de-dinero.png",
+      "PackagePath": "staticwebassets\\Img\\facturas-de-dinero.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\farmacia (1).png",
+      "PackagePath": "staticwebassets\\Img\\farmacia (1).png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\gestion.png",
+      "PackagePath": "staticwebassets\\Img\\gestion.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\grupo.png",
+      "PackagePath": "staticwebassets\\Img\\grupo.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\lupa.png",
+      "PackagePath": "staticwebassets\\Img\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\orden.png",
+      "PackagePath": "staticwebassets\\Img\\orden.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\proteger.png",
+      "PackagePath": "staticwebassets\\Img\\proteger.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\proyecto.png",
+      "PackagePath": "staticwebassets\\Img\\proyecto.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\quitar.png",
+      "PackagePath": "staticwebassets\\Img\\quitar.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registrarse.png",
+      "PackagePath": "staticwebassets\\Img\\registrarse.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registro-en-linea.png",
+      "PackagePath": "staticwebassets\\Img\\registro-en-linea.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registro.png",
+      "PackagePath": "staticwebassets\\Img\\registro.png"
+    },
+    {
+      "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\roles.png",
+      "PackagePath": "staticwebassets\\Img\\roles.png"
     },
     {
       "Id": "C:\\Users\\José Julián\\OneDrive\\Escritorio\\Proyecto Final\\5- Se agregan detalles factura\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Style\\sign-in.css",

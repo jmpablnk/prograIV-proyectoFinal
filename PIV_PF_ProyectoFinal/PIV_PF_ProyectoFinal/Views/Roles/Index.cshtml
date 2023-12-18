@@ -11,29 +11,19 @@
 <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
 <style>
-    body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        background-image: url('img/productos_farmacia.jpg');
-        background-size: cover;
-        background-position: center;
-        font-family: 'Times New Roman';
-    }
+ 
 
     h3 {
         color: black;
         text-decoration: underline;
     }
 
-    table {
-        margin-top: 20px;
-        color: black;
-    }
 </style>
 
-<h3>Roles</h3>
-
+<br>
+<br>
 <p>
-    <a asp-action="Create">Crear Rol</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create" >Nuevo Rol</a>
 </p>
 
 <table class="table table-dark table-striped">
@@ -53,9 +43,18 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+               
+                
+                    <a asp-action="Edit" asp-route-id="@item.Id">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" >
+                        <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+
                 </td>
             </tr>
         }

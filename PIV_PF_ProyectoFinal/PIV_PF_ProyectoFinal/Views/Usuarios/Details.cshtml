@@ -6,39 +6,28 @@
 
 <style>
     body {
-        /* Establecer la imagen de fondo y ajustar el tamaño y la posición según sea necesario */
-        background-image: url('img/detailsproductos.jpg');
+        background-image: url('@Url.Content("~/img/fondo2.jpg")');
         background-size: cover;
         background-position: center;
         font-family: 'Times New Roman';
+        font-size: 18px;
     }
+
+
 
     h1 {
         color: black;
         text-decoration: underline;
-    }
-
-    dl.row {
-        margin-bottom: 20px;
-    }
-
-    dt {
-        text-align: left;
-    }
-
-    dd {
-        margin-bottom: 10px;
     }
 </style>
 
 <h1>Detalles</h1>
 
 <div>
-
     <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;text-align:center;">
-        <img src="~/img/usuario (1).png" class="card-img-top" style="width: 100px; height: auto; ">
+        <img src="~/img/grupo.png" class="card-img-top" style="width: 100px; height: auto; ">
         <div class="card-body">
-            <h5 class="card-title">Cliente</h5>
+            <h5 class="card-title">Usuarios</h5>
             <dl class="row">
                 <dt>
                     @Html.DisplayNameFor(model => model.IdentificacionUsuario)
@@ -83,6 +72,8 @@
     </div>
 
 </div>
+
+
 
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>

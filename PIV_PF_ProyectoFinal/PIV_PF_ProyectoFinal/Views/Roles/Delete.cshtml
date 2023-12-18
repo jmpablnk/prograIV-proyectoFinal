@@ -10,6 +10,15 @@
 <link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
 <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 <style>
+    body {
+        background-image: url('@Url.Content("~/img/fondo2.jpg")');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+        font-size: 18px;
+    }
+
+
 
     h1 {
         color: black;
@@ -24,14 +33,15 @@
     <div>
 
         <div class="card d-flex align-items-center justify-content-center" style="width: 18rem;text-align:center;">
-            <img src="~/img/iconodelete.png" class="card-img-top" style="width: 100px; height: auto; ">
+            <br>
+            <img  src="~/img/registro.png"  class="card-img-top" style="width: 100px; height: auto; ">
             <div class="card-body">
                 <h5 class="card-title">Cliente</h5>
                 <dl class="row">
-                    <dt>
+                    <dt >
                         Nombre
                     </dt>
-                    <dd class="col-sm-10">
+                    <dd >
                         @Html.DisplayFor(model => model.Name)
                     </dd>
                 </dl>
