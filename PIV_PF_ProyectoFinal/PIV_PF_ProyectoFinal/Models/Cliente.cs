@@ -14,7 +14,7 @@ namespace PIV_PF_ProyectoFinal.Models
 
         public int IdClientes { get; set; }
         [Required(ErrorMessage = "El campo Identificacion es requerido.")]
-        [Display(Name = "Identifiacion")]
+        [Display(Name = "Identificación")]
         [VALIDACIONCLIENTE(ErrorMessage = "La identificación ya está en uso.")]
         public string Identificacion { get; set; } = null!;
         [Required(ErrorMessage = "El campo Nombre es requerido.")]

@@ -4,12 +4,18 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
+<br>
+<br>
+<p >
+    <a  type="button" class="btn btn-primary btn-lg" asp-action="Create">Añadir Cliente</a>
 </p>
-<table class="table">
+
+
+
+<table class="table table-dark table-striped">
+
+
     <thead>
         <tr>
             <th>
@@ -25,23 +31,31 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Identificacion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NombreCliente)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Correo)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdClientes">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdClientes">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdClientes">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Identificacion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreCliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Correo)
+                </td>
+                <td>
+                    <a  asp-action="Edit" asp-route-id="@item.IdClientes">
+                        <img src="~/img/proyecto.png"   title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a  asp-action="Details" asp-route-id="@item.IdClientes">
+                        <img src="~/img/registro-en-linea.png"  title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdClientes">
+                        <img src="~/img/borrar (1).png"  title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                        </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+

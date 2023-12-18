@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6heLH2c6ATFQiIdDjJWdombDhb65OkMCVJ1VVwGMwLvXqBApY4SrULO+I9jozNRP2IUHmjHPTdzx2xjMeqFoyA==",
+  "dgSpecHash": "l881ZD6+ZgiabLQeSceuALT/LGcKVzaGQZa5tjDNfhn2Mrs+ehZuNF6272U3v2gED/sPAI6ONBuC4omfgUp10A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+  "projectFilePath": "C:\\Users\\hora1\\Downloads\\carpeta 1\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hora1\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\hora1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

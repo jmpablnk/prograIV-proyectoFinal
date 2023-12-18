@@ -4,14 +4,29 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
 
+
+<style>
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+<br>
+<br>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create">Nuevo Tipo de Producto</a>
 </p>
-<table class="table">
+<br>
+
+<table class="table table-dark table-striped">
+
+
     <thead>
-        <tr>
+        <tr style="text-align:center;">
             <th>
                 @Html.DisplayNameFor(model => model.DescripcionTipoProducto)
             </th>
@@ -19,17 +34,28 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.DescripcionTipoProducto)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CodigoTipoProducto">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CodigoTipoProducto">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CodigoTipoProducto">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr style="text-align:center;">
+            
+                <td>
+                        @Html.DisplayFor(modelItem => item.DescripcionTipoProducto)
+                </td>
+                <td>
+                   
+
+                    <a asp-action="Edit" asp-route-id="@item.CodigoTipoProducto">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.CodigoTipoProducto" >
+                        <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.CodigoTipoProducto">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+

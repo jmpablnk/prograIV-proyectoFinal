@@ -1,18 +1,32 @@
-﻿vista Index
-
-@using Microsoft.AspNetCore.Identity
+﻿@using Microsoft.AspNetCore.Identity
 @model IEnumerable<IdentityRole>
 
 @{
     ViewData["Title"] = "Roles";
+}
 
-    <H3>Roles</H3>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
-    <p>
-        <a asp-action="Create">Crear Rol</a>
+<style>
+ 
 
-    </p>
-<table class="table">
+    h3 {
+        color: black;
+        text-decoration: underline;
+    }
+
+</style>
+
+<br>
+<br>
+<p>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create" >Nuevo Rol</a>
+</p>
+
+<table class="table table-dark table-striped">
     <thead>
         <tr>
             <th>
@@ -29,12 +43,27 @@
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Detalles</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+               
+                
+                    <a asp-action="Edit" asp-route-id="@item.Id">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.Id" >
+                        <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+
                 </td>
             </tr>
         }
     </tbody>
 </table>
-}
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

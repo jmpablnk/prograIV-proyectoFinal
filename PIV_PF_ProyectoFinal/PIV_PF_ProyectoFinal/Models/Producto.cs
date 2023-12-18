@@ -14,6 +14,7 @@ namespace PIV_PF_ProyectoFinal.Models
         [RegularExpression("^[a-zA-Z0-9]*$", ErrorMessage = "El código debe ser alfanumérico.")]
         public string CodigoProducto { get; set; } = null!;
         [Required(ErrorMessage = "El campo Descripcion es requerido.")]
+
         public string DescripcionProducto { get; set; } = null!;
         [Required(ErrorMessage = "El campo precio es requerido.")]
         public decimal Precio { get; set; }

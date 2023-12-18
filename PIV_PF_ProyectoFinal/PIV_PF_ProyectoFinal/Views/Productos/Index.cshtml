@@ -4,28 +4,47 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<style>
+    body {
+        background-image: url('@Url.Content("~/img/fondo2.jpg")');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+    }
 
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+<br>
+<br>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create">Nuevo Producto</a>
 </p>
-<table class="table">
+<table class="table table-dark table-striped">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.DescripcionProducto)
+                @Html.DisplayNameFor(model => model.DescripcionProducto).Replace("DescripcionProducto", "Descripcion")
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Precio)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Estado)
+                @Html.DisplayNameFor(model => model.Estado).Replace("Estado", "Estado")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CantidadStock)
+                @Html.DisplayNameFor(model => model.CantidadStock).Replace("CantidadStock", "Stock")
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CodigoTipoProductoNavigation)
+                @Html.DisplayNameFor(model => model.CodigoTipoProductoNavigation).Replace("CodigoTipoProductoNavigation", "Tipo del producto")
             </th>
             <th></th>
         </tr>
@@ -49,11 +68,31 @@
                 @Html.DisplayFor(modelItem => item.CodigoTipoProductoNavigation.CodigoTipoProducto)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.CodigoProducto">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CodigoProducto">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CodigoProducto">Delete</a>
+          
+                   
+
+
+                    <a asp-action="Edit" asp-route-id="@item.CodigoProducto">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.CodigoProducto">
+                        <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.CodigoProducto">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+
+
+
             </td>
         </tr>
 }
     </tbody>
 </table>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

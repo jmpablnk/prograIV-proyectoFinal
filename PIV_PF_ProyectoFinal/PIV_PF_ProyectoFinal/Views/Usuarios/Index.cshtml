@@ -4,12 +4,28 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<style>
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+
+  
+</style>
+
+<br>
+<br>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a type="button" class="btn btn-primary btn-lg" asp-action="Create">Añadir Usuario</a>
 </p>
-<table class="table">
+
+<table class="table table-dark table-striped">
     <thead>
         <tr>
             <th>
@@ -34,32 +50,49 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdentificacionUsuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.NombreCompletoUsuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CorreoUsuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoUsuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EstadoUsuario)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ContrasenaUsuario)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdUsuario">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdUsuario">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdUsuario">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdentificacionUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreCompletoUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CorreoUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EstadoUsuario)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContrasenaUsuario)
+                </td>
+                <td>
+
+
+
+                    <a asp-action="Edit" asp-route-id="@item.IdUsuario">
+                        <img src="~/img/proyecto.png" title="Editar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.IdUsuario">
+                        <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdUsuario">
+                        <img src="~/img/borrar (1).png" title="Eliminar" width="40" height="40" class="d-inline-block align-text-top" />
+                    </a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>

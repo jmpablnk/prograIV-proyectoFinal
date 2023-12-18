@@ -1,247 +1,383 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PIV_PF_ProyectoFinal.bundle.scp.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PIV_PF_ProyectoFinal.bundle.scp.css",
       "PackagePath": "staticwebassets\\PIV_PF_ProyectoFinal.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Actualizar1.png",
+      "PackagePath": "staticwebassets\\Img\\Actualizar1.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\AddUsuario.png",
+      "PackagePath": "staticwebassets\\Img\\AddUsuario.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Clientes.png",
+      "PackagePath": "staticwebassets\\Img\\Clientes.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo2.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Fondo3.jpg",
+      "PackagePath": "staticwebassets\\Img\\Fondo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Interfaz.png",
+      "PackagePath": "staticwebassets\\Img\\Interfaz.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\Login.png",
+      "PackagePath": "staticwebassets\\Img\\Login.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\apreton-de-manos.png",
+      "PackagePath": "staticwebassets\\Img\\apreton-de-manos.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\bienes.png",
+      "PackagePath": "staticwebassets\\Img\\bienes.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\bloc.png",
+      "PackagePath": "staticwebassets\\Img\\bloc.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\borrar (1).png",
+      "PackagePath": "staticwebassets\\Img\\borrar (1).png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\caja.png",
+      "PackagePath": "staticwebassets\\Img\\caja.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\controlar.png",
+      "PackagePath": "staticwebassets\\Img\\controlar.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\cuenta.png",
+      "PackagePath": "staticwebassets\\Img\\cuenta.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\detalle.png",
+      "PackagePath": "staticwebassets\\Img\\detalle.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\embalaje.png",
+      "PackagePath": "staticwebassets\\Img\\embalaje.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura (1).png",
+      "PackagePath": "staticwebassets\\Img\\factura (1).png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura.png",
+      "PackagePath": "staticwebassets\\Img\\factura.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\factura2.png",
+      "PackagePath": "staticwebassets\\Img\\factura2.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\facturas-de-dinero.png",
+      "PackagePath": "staticwebassets\\Img\\facturas-de-dinero.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\farmacia (1).png",
+      "PackagePath": "staticwebassets\\Img\\farmacia (1).png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\gestion.png",
+      "PackagePath": "staticwebassets\\Img\\gestion.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\grupo.png",
+      "PackagePath": "staticwebassets\\Img\\grupo.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\lupa.png",
+      "PackagePath": "staticwebassets\\Img\\lupa.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\orden.png",
+      "PackagePath": "staticwebassets\\Img\\orden.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\proteger.png",
+      "PackagePath": "staticwebassets\\Img\\proteger.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\proyecto.png",
+      "PackagePath": "staticwebassets\\Img\\proyecto.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\quitar.png",
+      "PackagePath": "staticwebassets\\Img\\quitar.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registrarse.png",
+      "PackagePath": "staticwebassets\\Img\\registrarse.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registro-en-linea.png",
+      "PackagePath": "staticwebassets\\Img\\registro-en-linea.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\registro.png",
+      "PackagePath": "staticwebassets\\Img\\registro.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Img\\roles.png",
+      "PackagePath": "staticwebassets\\Img\\roles.png"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\Style\\sign-in.css",
+      "PackagePath": "staticwebassets\\Style\\sign-in.css"
+    },
+    {
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\hora1\\Downloads\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

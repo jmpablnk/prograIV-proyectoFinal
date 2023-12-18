@@ -15,7 +15,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         }
 
         //Roles
-        [Authorize(Roles = "Administrador")]
+      [Authorize(Roles = "Administrador")]
         public IActionResult Index()
         {
             var roles = _roleManager.Roles;
@@ -25,7 +25,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles del Rol 
-        [Authorize(Roles = "Administrador")]
+       [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -42,14 +42,14 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Crear Roles
-        [Authorize(Roles = "Administrador")]
+      [Authorize(Roles = "Administrador")]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
-        [Authorize(Roles = "Administrador")]
+     [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Create(IdentityRole model)
         {
             // Validar el modelo antes de crear el rol.
@@ -88,7 +88,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Editar Roles
-        [Authorize(Roles = "Administrador")]
+       [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id)
         {
             var role = await _roleManager.FindByIdAsync(id);
@@ -100,13 +100,13 @@ namespace PIV_PF_ProyectoFinal.Controllers
             return View(role);
         }
         //Editar Roles
-        [Authorize(Roles = "Administrador")]
+      [Authorize(Roles = "Administrador")]
         [HttpPost]
         public async Task<IActionResult> Edit(string id, IdentityRole model)
         {
-            var existingRole = await _roleManager.FindByIdAsync(id);
+            var rolexiste = await _roleManager.FindByIdAsync(id);
 
-            if (existingRole == null)
+            if (rolexiste == null)
             {
                 ViewBag.Error = "Hubo error, vuelve a intentarlo";
             }
@@ -115,24 +115,24 @@ namespace PIV_PF_ProyectoFinal.Controllers
             {
                 if (!string.IsNullOrEmpty(model.Name))
                 {
-                    existingRole.Name = model.Name;
+                    rolexiste.Name = model.Name;
                 }
 
-                var result = await _roleManager.UpdateAsync(existingRole);
+                var result = await _roleManager.UpdateAsync(rolexiste);
 
                 if (result.Succeeded)
                 {
                     ViewBag.Mensaje = "Se edito el Rol con exito"; 
                 }
             }
-            return View(existingRole);
+            return View(rolexiste);
         }
 
 
 
 
         // Eliminar Roles 
-        [Authorize(Roles = "Administrador")] // --
+      [Authorize(Roles = "Administrador")]
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
         {
@@ -157,9 +157,9 @@ namespace PIV_PF_ProyectoFinal.Controllers
                 return NotFound();
             }
 
-            var deleteResult = await _roleManager.DeleteAsync(role);
+            var eliminar = await _roleManager.DeleteAsync(role);
 
-            if (deleteResult.Succeeded)
+            if (eliminar.Succeeded)
             {
                 return RedirectToAction("Index");
             }

@@ -2,7 +2,117 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+<style>
+    body {
+        background-image: url('@Url.Content("~/img/fondo2.jpg")');
+        background-size: cover;
+        background-position: center;
+        font-family: 'Times New Roman';
+        font-size: 18px;
+    }
+
+
+
+    h1 {
+        color: black;
+        text-decoration: underline;
+    }
+</style>
+
+<div class="container">
+    <div class="text-center mt-5">
+        
+        <h1 class="display-4">Bienvenido</h1>
+        <img src="~/img/apreton-de-manos.png" alt="Bootstrap" width="100" height="90" />
+        <p>Explora los diferentes módulos de la aplicación:</p>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/clientes.png"  alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Clientes</strong></h5>
+                    <p class="card-text">Administra clientes</p>
+                    <a href="/Clientes" class="btn btn-primary">Ir a Clientes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/factura (1).png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Detalle Factura</strong></h5>
+                    <p class="card-text">Detalles Factura</p>
+                    <a href="/DetallesFacturas" class="btn btn-primary">Ir a Detalles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/factura.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Facturas</strong></h5>
+                    <p class="card-text">Administra facturas</p>
+                    <a href="/Facturas" class="btn btn-primary">Ir a Facturas</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img  src="~/img/controlar.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Productos</strong></h5>
+                    <p class="card-text">Administra productos</p>
+                    <a href="/Productos" class="btn btn-primary">Ir a Productos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/roles.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Roles</strong></h5>
+                    <p class="card-text">Administra roles de usuario</p>
+                    <a href="/Roles" class="btn btn-primary">Ir a Roles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/caja.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Tipos de Productos</strong></h5>
+                    <p class="card-text">Administra tipos de productos</p>
+                    <a href="/TiposProductos" class="btn btn-primary">Ir a Tipos de Productos</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <img src="~/img/grupo.png" alt="Bootstrap" width="60" height="50">
+                    <h5 class="card-title"><strong>Usuarios</strong></h5>
+                    <p class="card-text">Administra Usuarios</p>
+                    <a href="/Usuarios" class="btn btn-primary">Ir a Usuarios</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.esm.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
