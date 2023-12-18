@@ -15,7 +15,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         }
 
         //Roles
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public IActionResult Index()
         {
             var roles = _roleManager.Roles;
@@ -25,7 +25,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles del Rol 
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -42,14 +42,14 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Crear Roles
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
         [HttpPost]
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Create(IdentityRole model)
         {
             // Validar el modelo antes de crear el rol.
@@ -88,7 +88,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Editar Roles
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id)
         {
             var role = await _roleManager.FindByIdAsync(id);
@@ -100,7 +100,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
             return View(role);
         }
         //Editar Roles
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         [HttpPost]
         public async Task<IActionResult> Edit(string id, IdentityRole model)
         {
@@ -132,7 +132,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar Roles 
-        //[Authorize(Roles = "Administrador")] // --
+        [Authorize(Roles = "Administrador")] // --
         [HttpGet]
         public async Task<IActionResult> Delete(string id)
         {
@@ -147,7 +147,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         }
 
         [HttpPost, ActionName("Delete")]
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var role = await _roleManager.FindByIdAsync(id);

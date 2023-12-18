@@ -22,7 +22,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Tipo de productos
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Index() //tampoco tiene
         {
               return _context.TiposProducto != null ? 
@@ -33,7 +33,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         //Detalles
-        //[Authorize(Roles = "Administrador")] // No contiene viewbag
+        [Authorize(Roles = "Administrador")] // No contiene viewbag
         public async Task<IActionResult> Details(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -85,7 +85,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Editar
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -103,7 +103,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
         // Editar
         [HttpPost]
         [ValidateAntiForgeryToken]
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Edit(string id, [Bind("CodigoTipoProducto,DescripcionTipoProducto")] TiposProducto tiposProducto)
         {
             if (id != tiposProducto.CodigoTipoProducto)
@@ -142,7 +142,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null || _context.TiposProducto == null)
@@ -162,7 +162,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Eliminar
-        //[Authorize(Roles = "Administrador")]
+        [Authorize(Roles = "Administrador")]
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
