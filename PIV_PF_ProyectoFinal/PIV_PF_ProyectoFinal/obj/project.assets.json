@@ -11500,11 +11500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hora1\\Downloads\\carpeta 1\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+      "projectUniqueName": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
       "projectName": "PIV_PF_ProyectoFinal",
-      "projectPath": "C:\\Users\\hora1\\Downloads\\carpeta 1\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
+      "projectPath": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal.csproj",
       "packagesPath": "C:\\Users\\hora1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hora1\\Downloads\\carpeta 1\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\",
+      "outputPath": "C:\\Users\\hora1\\OneDrive\\Escritorio\\Universidad\\UAM\\Programacion IV\\Proyecto_Final\\PIV_PF_ProyectoFinal\\PIV_PF_ProyectoFinal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hora1\\AppData\\Roaming\\NuGet\\NuGet.Config",

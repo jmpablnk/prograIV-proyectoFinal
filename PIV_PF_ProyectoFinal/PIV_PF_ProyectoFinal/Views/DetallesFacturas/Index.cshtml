@@ -21,9 +21,6 @@
     <thead>
         <tr style="text-align:center;">
             <th>
-                @Html.DisplayNameFor(model => model.Subtotal)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.CodigoFacturaNavigation)
             </th>
             <th>
@@ -37,16 +34,13 @@
         {
             <tr style="text-align:center;">
                 <td>
-                    @Html.DisplayFor(modelItem => item.Subtotal)
-                </td>
-                <td>
                     @Html.DisplayFor(modelItem => item.CodigoFacturaNavigation.CodigoFactura)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.CodigoProductoNavigation.CodigoProducto)
                 </td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.CodigoFactura">
+                    <a asp-action="Details" asp-route-id="@item.IdDetallesFactura">
                         <img src="~/img/registro-en-linea.png" title="Detalles" width="40" height="40" class="d-inline-block align-text-top" />
                     </a> |
                 </td>
