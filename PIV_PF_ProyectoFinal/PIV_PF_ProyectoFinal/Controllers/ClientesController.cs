@@ -23,7 +23,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Clientes 
-        //[Authorize(Roles = "Administrador,Vendedor")]
+        [Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Index() //no tiene
         {
               return _context.Cliente != null ? 
@@ -35,7 +35,7 @@ namespace PIV_PF_ProyectoFinal.Controllers
 
 
         // Detalles
-        //[Authorize(Roles = "Administrador,Vendedor")]
+        [Authorize(Roles = "Administrador,Vendedor")]
         public async Task<IActionResult> Details(int? id) // no tiene
         {
             if (id == null || _context.Cliente == null)

@@ -60,7 +60,7 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
             [Display(Name = "Password")]
             public string Password { get; set; }
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
+            [Display(Name = "Confirmar password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
         }
@@ -86,7 +86,7 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
 
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User created a new account with password.");
+                    _logger.LogInformation("Usuario Creado.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -97,11 +97,11 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
                         protocol: Request.Scheme);
 
-                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    await _emailSender.SendEmailAsync(Input.Email, "Confirmar Gmail",
+                        $"Confirmar tu cuenta <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>Click aqui</a>.");
 
                     // Aignar el rol por defecto a nuevo usuario" 
-                    await _userManager.AddToRoleAsync(user, "Administrador");
+                    await _userManager.AddToRoleAsync(user, "Contador");
                     //Administrador
                     //Vendedor
                     //Contador
@@ -121,8 +121,6 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
-
-            // If we got this far, something failed, redisplay form
             return Page();
         }
 
@@ -134,9 +132,9 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
             }
             catch
             {
-                throw new InvalidOperationException($"Can't create an instance of '{nameof(IdentityUser)}'. " +
-                    $"Ensure that '{nameof(IdentityUser)}' is not an abstract class and has a parameterless constructor, or alternatively " +
-                    $"override the register page in /Areas/Identity/Pages/Account/Register.cshtml");
+                throw new InvalidOperationException($"No se puede crear una instancia de '{nameof(IdentityUser)}'. " +
+                    $"Asegurarse de que '{nameof(IdentityUser)}' no es una clase abstracta y tiene un constructor sin parámetros, o alternativamente " +
+                    $"anular la página de registro en /Areas/Identity/Pages/Account/Register.cshtml");
             }
         }
 
@@ -144,7 +142,7 @@ namespace PIV_PF_ProyectoFinal.Areas.Identity.Pages.Account
         {
             if (!_userManager.SupportsUserEmail)
             {
-                throw new NotSupportedException("The default UI requires a user store with email support.");
+                throw new NotSupportedException("La interfaz de usuario predeterminada requiere una tienda de usuarios con soporte por correo electrónico.");
             }
             return (IUserEmailStore<IdentityUser>)_userStore;
         }

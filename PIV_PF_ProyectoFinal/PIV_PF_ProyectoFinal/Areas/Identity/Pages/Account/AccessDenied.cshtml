@@ -1,0 +1,35 @@
+﻿@page
+@model AccessDeniedModel
+
+@{
+
+    ViewData["Title"] = " Acceso Denegado ";
+
+}
+ 
+<br>
+
+<br>
+
+<header>
+
+    <h1 style="text-align:center;" class="text-danger"><strong> @ViewData["Title"]</strong></h1>
+ 
+    <div class="alert alert-danger" role="alert" style="max-width: 500px; margin: 0 auto;">
+
+        <p style="font-family: 'Times New Roman'; font-size: 20px;" class="text-danger">No posee el permiso necesario para ingresar a este apartado</p>
+
+    </div>
+
+    <br>
+
+    <br>
+
+    <p style="text-align:center;">
+
+        <img src="~/img/cancelar.png" alt="Bootstrap" width="200" height="200" />
+ 
+    </p>
+
+</header>
+

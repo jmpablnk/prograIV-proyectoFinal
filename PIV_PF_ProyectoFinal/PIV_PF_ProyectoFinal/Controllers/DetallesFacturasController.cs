@@ -49,8 +49,9 @@ namespace PIV_PF_ProyectoFinal.Controllers
             {
                 return NotFound();
             }
-            detallesFactura.Subtotal = _context.DetallesFactura.Sum(df => df.Subtotal);
+            detallesFactura.Subtotal = detallesFactura.Total;
             detallesFactura.Total = detallesFactura.Subtotal * 1.13m;
+
 
             return View(detallesFactura);
         }
@@ -73,20 +74,42 @@ namespace PIV_PF_ProyectoFinal.Controllers
         [ValidateAntiForgeryToken]
 
         [Authorize(Roles = "Administrador,Vendedor")]
-        public async Task<IActionResult> Create([Bind("IdDetallesFactura,Subtotal,Total,CodigoFactura,CodigoProducto")] DetallesFactura detallesFactura)
+        public async Task<IActionResult> Create([Bind("IdDetallesFactura,Cantidad,CodigoFactura,CodigoProducto")] DetallesFactura detallesFactura)
         {
             try
             {
-                _context.Add(detallesFactura);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // Recuperar las entidades Producto y Factura según los IDs proporcionados
+                Producto producto = await _context.Producto.FindAsync(detallesFactura.CodigoProducto);
+                Factura factura = await _context.Factura.FindAsync(detallesFactura.CodigoFactura);
+
+                if (producto != null && factura != null)
+                {
+                    // Calcular Subtotal en función de Precio y Cantidad
+                    detallesFactura.Subtotal = producto.Precio * factura.Cantidad;
+
+                    // Calcular Total (suponiendo que hay cálculos adicionales)
+                    detallesFactura.Total = detallesFactura.Subtotal;
+
+                    // Agregar el registro al contexto
+                    _context.Add(detallesFactura);
+
+                    // Guardar cambios en la base de datos
+                    await _context.SaveChangesAsync();
+
+                    // Redirigir a la acción Index
+                    return RedirectToAction(nameof(Index));
+                }
+                else
+                {
+                    return RedirectToAction("Error");
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                throw;
+                
+                ViewData["CodigoFactura"] = new SelectList(_context.Factura, "CodigoFactura", "CodigoFactura", detallesFactura.CodigoFactura);
+                ViewData["CodigoProducto"] = new SelectList(_context.Producto, "CodigoProducto", "CodigoProducto", detallesFactura.CodigoProducto);
             }
-            ViewData["CodigoFactura"] = new SelectList(_context.Factura, "CodigoFactura", "CodigoFactura", detallesFactura.CodigoFactura);
-            ViewData["CodigoProducto"] = new SelectList(_context.Producto, "CodigoProducto", "CodigoProducto", detallesFactura.CodigoProducto);
             return View(detallesFactura);
         }
     }
